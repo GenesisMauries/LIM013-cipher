@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #f8f0ec;
+}
+
+h1{  
+    display: inline-block;  
+    margin-right: 1%;
+    font-family: 'Carter One', cursive;
+    color: #A62D2D;
+    font-size: 2.1em;
+}
+
+.logo{
+    height: 45px;
+}
+
+input, textarea{
+    border-radius: 2px;
+    border: 1px solid #4e5c6b   ;
+}
+
+.textBox{
+    width: 100%;
+    margin: 0.5em 0 0 0;
+    overflow: auto;
+    font-size: 1.2em;
+}
+
+.container{
+    background-color: #FFFFFF;
+    width: 40%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 1.8em 0;
+    border-radius: 5px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container > p{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1em;
+    background: -webkit-linear-gradient(90deg,#ff580e,#ff2f5f);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.firstBox {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 80%;
+    margin: 3% auto 0 auto;
+}
+
+.firstBox > section {
+    width: 80%;
+    margin-bottom: 3%;
+}
+
+button{
+    height: 30px;
+}
+
+.firstBox label{
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #575959;
+}
+
+.firstBox p{
+    font-size: 0.9em;
+    margin-top: 2%;
+    color:#575959;
+}
+
+.numberBox{
+    width: 45px;
+    height: 22px;
+    margin-right: 1%;
+    text-align: center;
+    font-size: 0.7em;
+    color: #575959;
+}
+
+.secondBox{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.secondBox button{
+    width: 15.4vw;
+    font-size: 1em;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background:#00b62a ;
+    color: #FFFFFF;
+    border: 2px solid  #00b62a;
+    margin: 10px 0 2px 2px;
+}
+
+.secondBox button:hover{
+    background-color: #0a942a;
+    border: 2px solid #0a942a;
+    font-weight: bold;
+}
+
+.lastbox{
+    width: 80%;
+    margin: auto;
+    text-align: right;
+}
+
+.lastbox p{
+    background: -webkit-linear-gradient(90deg,#ff580e,#ff2f5f);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 3%;
+    text-align: left;
+}
+
+.lastbox .textBox{
+    margin-bottom: 0.5em;
+}
+
+.firstBox button, .lastbox button{
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 4px;
+    background: -webkit-linear-gradient(90deg,#ff580e,#ff2f5f);
+    border: 2px solid #ff2f5f;
+}
+
+.firstBox button:hover, .lastbox button:hover{
+    background-color: rgb(53, 104, 109);
+}
+
+a{
+    color: inherit;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.jstext{
+    position:fixed; 
+    z-index: 1; 
+    top: 50%;
+    left: 48%;
+    margin-left: -70px;
+    padding: 1%; 
+    background: -webkit-linear-gradient(90deg,#ff580e,#ff2f5f);
+    border-radius: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #fff;
+}
+
+@media screen and (max-width: 1000px){
+    .container{
+        width:90%;
+        padding: 1em 0;
+    }
+
+    .container > p{
+        font-size: 1.1em;
+        margin-bottom: 2%;
+    }
+
+    h1{
+        font-size: 1.5em;
+    }
+
+    .logo{
+        height: 30px;
+    }
+
+    .firstBox label{
+        font-size: 1.0em;
+    }
+
+    textarea{
+        height: 70px;
+    }
+
+    .textBox{
+        font-size: 1em;
+    }
+
+    .secondBox button{
+        width: 48%;
+        font-size: 0.9em;
+        height: 25px;
+    }
+
+    .lastbox p{
+        font-size: 1em;
+    }
+
+}
